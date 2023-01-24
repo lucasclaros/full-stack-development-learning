@@ -5,7 +5,7 @@ html * {
 }
 
 body {
-    background-color: #D62828;
+    background-color: #a4a4a4;
 
     position: absolute;
     top: 50%;
@@ -55,6 +55,8 @@ body {
     font-weight: 500;
 
     padding-bottom: 5px;
+
+    user-select: none;
 }
 
 .inputs {
@@ -96,8 +98,10 @@ body {
 
     cursor: pointer;
     transition: all linear 0.3s;
+
+    user-select: none;
 }
 
 .btn-submit:hover {
-    box-shadow: 4px 4px #FF7F00;
+    box-shadow: 4px 4px cyan;
 }
