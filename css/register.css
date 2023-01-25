@@ -5,7 +5,7 @@ html * {
 }
 
 body {
-    background-repeat: no-repeat;
+    background-color: #a3a3a3;
 
     position: absolute;
     top: 50%;
