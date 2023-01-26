@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Notes</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/forms_create_note.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/floating_button_create_note.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+
+  <body>
+    <a href="#create-note" class="btn-open-create-note">
+      <img src="assets/add-button.svg" />
+    </a>
+
+    <header class="nav-bar">
+      <div class="logo">
+        <img src="assets/logo.svg" />
+        <div><p>MyNotes</p></div>
+      </div>
+      <ul class="nav-items">
+        <li class="nav-bar-item"><a href="#">Home</a></li>
+        <li class="nav-bar-item"><a href="#">Settings</a></li>
+        <li class="nav-bar-item"><a href="#">Profile</a></li>
+      </ul>
+    </header>
+
+    <span id="create-note">
+      <a href="#"><div class="btn-close-note">X</div></a>
+      <div class="forms">
+        <p class="forms-title">Create a new note</p>
+        <p class="forms-desc">
+          Add your note to the dashboard so you don't forget it
+        </p>
+        <form>
+          <div class="field-wrapper">
+            <label for="input-title">Title</label>
+            <input class="inputs" id="input-title" type="title" />
+          </div>
+
+          <div class="field-wrapper">
+            <label for="input-description">Description</label>
+            <textarea class="inputs" id="input-description"></textarea>
+          </div>
+
+          <button class="btn-submit" type="submit">Create note</button>
+        </form>
+      </div>
+    </span>
+  </body>
+</html>

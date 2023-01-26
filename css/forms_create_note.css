@@ -1,28 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-html * {
-    font-family: 'Quicksand';
-}
-
-body {
-    background-color: #a3a3a3;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .forms {
     background-color: #f8f8f8;
+
+    position: relative;
 
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px;
 
-    width: 420px;
+    width: 460px;
+    height: 460px;
     padding: 40px;
-
 }
 
 .forms-title {
