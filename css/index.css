@@ -42,3 +42,31 @@ span {
 span:target {
     right: 0;
 }
+
+.note-list {
+    margin-top: 50px;
+    display: flex;
+}
+
+.note {
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.note h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.note p {
+    font-size: 14px
+}
